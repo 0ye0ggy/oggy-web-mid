@@ -36,10 +36,33 @@ nav ul a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  margin: 1 px solid black;
+  border: 1 px solid rgb(255, 94, 0);
 }
 
-section::first-child {
-  padding: 10rem;
-  justify-content: space-around;
+section {
+  background-color: rgb(231, 231, 231);
+}
+
+section img {
+  padding: 3rem;
+  margin-left: 20rem;
+  margin-top: 5rem;
+}
+section p {
+  padding: 2rem;
+  margin-left: 23rem;
+  margin-top: 1%;
+  width: 40%;
+  font-size: larger;
+  line-height: 2.5;
+  border: 3px solid white;
+}
+section h3 {
+  padding: 1rem;
+  margin-left: 20rem;
+}
+
+section h5 {
+  padding: 1rem;
+  margin-left: 20rem;
 }
