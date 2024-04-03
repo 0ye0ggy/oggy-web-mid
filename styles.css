@@ -36,10 +36,79 @@ nav ul a {
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
-  margin: 1 px solid black;
+  border: 1 px solid rgb(255, 94, 0);
 }
 
-section::first-child {
-  padding: 10rem;
-  justify-content: space-around;
+section {
+  background-color: rgb(231, 231, 231);
+}
+
+section img {
+  padding: 3rem;
+  margin-left: 20rem;
+  margin-top: 5rem;
+}
+section p {
+  padding: 2rem;
+  margin-left: 23rem;
+  margin-top: 1%;
+  width: 40%;
+  font-size: larger;
+  line-height: 2.5;
+  border: 3px solid white;
+}
+section h3 {
+  padding: 1rem;
+  margin-left: 20rem;
+  font-weight: 700;
+  font-size: 36px;
+  color: #575757;
+}
+
+section h5 {
+  padding: 1rem;
+  margin-left: 20rem;
+  font-size: 1.5em;
+}
+
+article {
+  background-color: #272a32;
+  height: 75vh;
+}
+article ul li {
+  text-align: center;
+  padding-top: 79px;
+  color: white;
+}
+
+.program-wrap {
+  background-image: url("../images/base/pattern_bg.png");
+  background-repeat: repeat;
+  background-color: #272a32;
+  height: 637px;
+}
+
+.program-wrap div.content {
+  text-align: center;
+  padding-top: 79px;
+  color: white;
+}
+
+.program-wrap div.content h1 {
+  font-size: 30px;
+  font-weight: 400;
+}
+
+.program-wrap div.content .program-list {
+  padding-bottom: 16px;
+}
+
+.program-wrap div.content .program-list .program-card {
+  margin: 0 0 0 3px;
+  padding: 8px;
+  border: 0;
+  float: left;
+  width: calc(18% - 3px);
+  height: 228px;
+  background: rgb(255 255 255 / 10%);
 }
